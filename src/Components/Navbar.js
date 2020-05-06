@@ -2,13 +2,6 @@ import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import M from  'materialize-css/dist/js/materialize.min.js';
 
-
-
-
-
-
-
-
 export default function Navbar() {
 
     
