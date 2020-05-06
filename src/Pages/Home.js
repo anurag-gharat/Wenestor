@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import Slider from '../Contents/Slider'
 import About from '../Contents/About'
+import Whyus from '../Contents/Whyus'
 export default function Home() {
 
 
@@ -9,6 +10,7 @@ export default function Home() {
         <div class="App">
             <Slider />
             <About />
+            <Whyus />
        
         </div>
     )
