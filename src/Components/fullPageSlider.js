@@ -4,10 +4,10 @@ export default function fullPageSlider(props) {
     return (
         <li>
         <img src={props.image} /> 
-        <div class="caption center-align">
+        <div className="caption center-align">
           <h3>{props.title}</h3>
-          <h5 class="light grey-text text-lighten-3">{props.subtitle}</h5>
-          <button>{props.button}</button>
+          <h5 className="light grey-text text-lighten-3">{props.subtitle}</h5>
+          <button className="btn ">{props.button}</button>
         </div>
       </li>
     )
