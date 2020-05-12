@@ -20,6 +20,7 @@ export default function Home() {
             <Whyus />
             <Parallax img={parallaximg1}/>
             <WorkOn />
+            
         </div>
     )
 }

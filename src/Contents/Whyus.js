@@ -3,6 +3,7 @@ import Card from '../Components/Card'
 import {FaClipboardCheck,FaRobot,FaUsers} from 'react-icons/fa'
 import {GiRelationshipBounds,GiTeacher} from 'react-icons/gi'
 import {RiCustomerService2Line} from 'react-icons/ri'
+import Heading from '../Components/Heading'
 
 
 
@@ -10,7 +11,8 @@ export default function Whyus() {
     return (
         <section className="section">
         <div className="container">
-        <div className="row ">
+            <Heading heading="Why us?" />
+        <div className="row m-t-10 ">
             <div className="col l4 s6 m4  ">
                 <Card text="Customer Centric">
                     <FaUsers className="display-1" />
@@ -27,7 +29,7 @@ export default function Whyus() {
                 </Card>
             </div>
         </div>
-        <div className="row">
+        <div className="row m-t-10">
         <div className="col l4 s6 m4">
                 <Card text="Alpha Bot">
                     <FaRobot className="display-1"/>

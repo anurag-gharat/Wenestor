@@ -2,6 +2,14 @@ body{
   margin: 0px !important;
   padding: 0px !important;
   font-family: 'Roboto','sans-serif' !important;
+  box-sizing: border-box;
+}
+section{
+  padding: 50px 0px !important;
+}
+h1{
+  font-weight: bold;
+  letter-spacing: 8px;
 }
 .display-1{
   font-size: 60px;
@@ -12,11 +20,12 @@ body{
 .p-10{
   padding: 20px 0px !important;
 }
+
 .p-5{
   padding: 10px !important;
 }
 .m-t-10{
-  margin-top: 10px;
+  margin-top: 10px !important;
 }
 .no-mar{
   margin: 0px !important;
