@@ -1,9 +1,8 @@
 import React from 'react'
 import Card from '../Components/Card'
-import {FaHandshake,FaClipboardCheck,FaRobot,FaUsers} from 'react-icons/fa'
+import {FaClipboardCheck,FaRobot,FaUsers} from 'react-icons/fa'
 import {GiRelationshipBounds,GiTeacher} from 'react-icons/gi'
 import {RiCustomerService2Line} from 'react-icons/ri'
-import {GrUserExpert} from 'react-icons/gr'
 
 
 

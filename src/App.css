@@ -1,11 +1,29 @@
 body{
   margin: 0px !important;
   padding: 0px !important;
-  font-family: 'Montserrat','sans-serif';
+  font-family: 'Roboto','sans-serif' !important;
 }
 .display-1{
   font-size: 60px;
 }
+.display-4{
+  font-size: 30px;
+}
 .p-10{
   padding: 20px 0px !important;
+}
+.p-5{
+  padding: 10px !important;
+}
+.no-mar{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.footer-link{
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.footer-link>li>a{
 }
