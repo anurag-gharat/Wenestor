@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
     return (
-<section className="section">
+<section className="section ">
     <div className="container center">
         <h1>WHO ARE WE ?</h1>
         <p>An organization aimed at providing guidance in sustaining businesses through professionals who are best in the industry. </p>

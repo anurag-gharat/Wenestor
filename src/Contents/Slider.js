@@ -19,9 +19,12 @@ export default function Slider() {
 
         <div class="slider">
         <ul class="slides">
-            <FullPageSlider image={slider1} title="title one" subtitle="title one ki subheading" button="Start Now!" />
-            <FullPageSlider image={slider2} title="title one" subtitle="title one ki subheading" button="Start Now!" />
-            <FullPageSlider image={slider3} title="title one" subtitle="title one ki subheading" button="Start Now!" />
+            <FullPageSlider 
+            image={slider1} 
+            title="Consulting Redefined" 
+            subtitle="Get help in your Business Projects from over 5000+ Experts." button="Start Now!" />
+            <FullPageSlider image={slider2} title="Consulting Redefined" subtitle="Get help in your Business Projects from over 5000+ Experts." button="Start Now!" />
+            <FullPageSlider image={slider3} title="Consulting Redefined" subtitle="Get help in your Business Projects from over 5000+ Experts." button="Start Now!" />
         
         </ul>
       </div>
