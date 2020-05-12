@@ -2,12 +2,11 @@ import React from 'react'
 
 export default function Card(props) {
     return (
-        <div className="card">
-            <div className="card-image">
-            {props.children}
-            
+        <div className="card-panel blue lighten-1 white-text p-10">
+            <div className="card-image center">
+              {props.children}
             </div>
-            <div className="card-content">
+            <div className="card-content center">
             <p>{props.text}</p>
             </div>
         </div>

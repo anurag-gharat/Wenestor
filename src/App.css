@@ -3,3 +3,9 @@ body{
   padding: 0px !important;
   font-family: 'Montserrat','sans-serif';
 }
+.display-1{
+  font-size: 60px;
+}
+.p-10{
+  padding: 20px 0px !important;
+}
