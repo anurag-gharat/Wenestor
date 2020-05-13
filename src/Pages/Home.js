@@ -6,6 +6,7 @@ import parallaximg1 from '../Images/parallax1.jpg'
 import Whyus from '../Contents/Whyus'
 import Parallax from '../Components/Parallax'
 import WorkOn from '../Contents/WorkOn';
+import SocialService from '../Contents/SocialService';
 
 export default function Home() {
     useEffect(()=>{
@@ -20,6 +21,7 @@ export default function Home() {
             <Whyus />
             <Parallax img={parallaximg1}/>
             <WorkOn />
+            <SocialService />
             
         </div>
     )

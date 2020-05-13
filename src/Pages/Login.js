@@ -74,7 +74,7 @@ export default function Login() {
                         </div>
                     </div>
                 </div>
-                <div className="row center">
+                <div className="row center-align">
                     <button type="submit" className="btn btn-medium waves-effect">Submit</button>
                 </div>
 
@@ -82,7 +82,7 @@ export default function Login() {
 
                 </form>
             </div>    
-            <div className="row">
+            <div className="row center">
                 <Link to="/signup" >Become a member?</Link>
             </div>
         </div>
