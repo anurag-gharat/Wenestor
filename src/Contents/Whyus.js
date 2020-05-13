@@ -28,8 +28,6 @@ export default function Whyus() {
                     <GiTeacher className="display-1 white-text"/>
                 </Card>
             </div>
-        </div>
-        <div className="row m-t-10">
         <div className="col l4 s6 m4">
                 <Card text="Alpha Bot">
                     <FaRobot className="display-1"/>
@@ -46,7 +44,8 @@ export default function Whyus() {
                     <GiRelationshipBounds className="display-1"/>
                 </Card>
             </div>
-        </div>
+            </div>
+        
         </div>
         </section>
     )

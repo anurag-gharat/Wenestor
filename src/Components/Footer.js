@@ -5,8 +5,8 @@ import {GrInstagram,GrTwitter,GrFacebookOption} from 'react-icons/gr'
  
 export default function Footer() {
     return (
-            <footer className="center no-mar blue-grey darken-2 white-text">
-                    <div className="row  no-mar">
+            <footer className="center  blue-grey darken-2 white-text m-t-10">
+                    <div className="row p-10  no-mar">
                         <div className="col l12 s12 left-align">
                             <ul className="footer-link">
                                 <li><Link className="white-text" to="#">Home</Link></li>
