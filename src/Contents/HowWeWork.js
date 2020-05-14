@@ -1,6 +1,8 @@
 import React from 'react'
 import Heading from '../Components/Heading'
-import Consultants from '../Images/landing2.svg'
+import Consultants from '../Images/consultants.svg'
+import Organizations from '../Images/organizations.svg'
+
 
 export default function HowWeWork() {
     return (
@@ -18,7 +20,7 @@ export default function HowWeWork() {
             <div className="row">
             <div className="col s4 l4">
                     <div className="row">
-                        01
+                        <h4>01</h4>
                     </div>
                     <div className="row">
                         Register on our platform, post your profile and field of work
@@ -26,7 +28,7 @@ export default function HowWeWork() {
                 </div>
                 <div className="col s4 l4">
                 <div className="row">
-                        02
+                        <h4>02</h4>
                     </div>
                     <div className="row">
                     Take up a project which you deem fit to work on 
@@ -35,7 +37,7 @@ export default function HowWeWork() {
                 
                 <div className="col s4 l4">
                 <div className="row">
-                        03
+                        <h4>03</h4>
                     </div>
                     <div className="row">
                     Projects related to you will automatically will be redirected towards your dashboard
@@ -43,6 +45,34 @@ export default function HowWeWork() {
                 </div>
             </div>
         </div>
+        <div className="container">
+            <div className="row center-align">
+                <img src={Organizations} alt="Organizations Image" height="300px"></img>
+            </div>
+            <div className="row">
+                <blockquote><h5>For Organizations</h5></blockquote>
+            </div>
+            <div className="row">
+            <div className="col s6 l6">
+                    <div className="row">
+                        <h4>01</h4>
+                    </div>
+                    <div className="row">
+                     Register yourselves and post the project you want us to solve
+                    </div>
+                </div>
+                <div className="col s6 l6">
+                <div className="row">
+                        <h4>02</h4>
+                    </div>
+                    <div className="row">
+                     Our Alpha bot will assign you with relevant consultants to choose from
+                    </div> 
+                </div>
+                
+                
+            </div>
+            </div>
     </section>
     )
 }

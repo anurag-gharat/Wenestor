@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Heading from '../Components/Heading'
-import img from '../Images/home1.jpg'
 import NoBorderCard from '../Components/NoBorderCard'
 import Profit from '../Images/profit.png'
 import Growth from '../Images/growth.png'

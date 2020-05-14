@@ -1,3 +1,7 @@
+:root{
+  --primary-color:#42a5f5 ;
+}
+
 body{
   margin: 0px !important;
   padding: 0px !important;
@@ -6,7 +10,7 @@ body{
   background: linear-gradient(to right,#fff6f6,#f3f3f3);
 }
 blockquote{
-  border-color: #4facfe;
+  border-color: var(--primary-color);
 }
 section{
   padding: 50px 0px !important;
@@ -25,7 +29,7 @@ h1{
   font-size: 30px;
 }
 .display-4:hover,.footer-link>li>a:hover{
-  color: #00f2fe;
+  color: var(--primary-color);
   transition: .2s ease-in-out;
 }
 .p-t-100{

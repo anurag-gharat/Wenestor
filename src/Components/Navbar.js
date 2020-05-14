@@ -17,7 +17,7 @@ export default function Navbar() {
 
     return (
         <div>
-            <nav className="nav-extended light-blue white-text">
+            <nav className="nav-extended light-blue lighten-1 white-text">
             <div className="nav-wrapper">
             <a href="/" className="brand-logo white-text logo" style={{marginLeft:10}}>WENESTER</a>
             <a href="#" data-target="mobile-demo" className="sidenav-trigger right"><i className="material-icons green-text darken-4">menu</i></a>
