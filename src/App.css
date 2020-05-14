@@ -1,11 +1,18 @@
 body{
   margin: 0px !important;
   padding: 0px !important;
-  font-family: 'Roboto','sans-serif' !important;
+  font-family: 'Montserrat','sans-serif' !important;
   box-sizing: border-box;
+  background: linear-gradient(to right,#fff6f6,#f3f3f3);
+}
+blockquote{
+  border-color: #4facfe;
 }
 section{
   padding: 50px 0px !important;
+}
+.logo{
+  font-family: monospace;
 }
 h1{
   font-weight: bold;
@@ -21,7 +28,9 @@ h1{
   color: #00f2fe;
   transition: .2s ease-in-out;
 }
-
+.p-t-100{
+  padding-top: 100px !important;
+}
 .p-10{
   padding: 20px 0px !important;
 }
