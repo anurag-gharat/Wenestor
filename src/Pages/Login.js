@@ -12,8 +12,8 @@ export default function Login() {
     const {email,password}= values
     const [role,setRole]=useState("Consultant")
     
-    const activeRole="btn "
-    const inactiveRole="btn btn-flat"
+    const activeRole="btn light-blue lighten-1 "
+    const inactiveRole="btn btn-flat "
 
     const handleRole=(e)=>{
         e.preventDefault()
@@ -75,7 +75,7 @@ export default function Login() {
                     </div>
                 </div>
                 <div className="row center-align">
-                    <button type="submit" className="btn btn-medium waves-effect">Submit</button>
+                    <button type="submit" className="btn light-blue lighten-1 waves-effect">Submit</button>
                 </div>
 
 
