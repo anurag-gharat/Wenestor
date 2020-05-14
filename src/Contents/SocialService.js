@@ -6,7 +6,7 @@ import TextBlock from '../Components/TextBlock'
 export default class SocialService extends Component {
     render() {
         return (
-        <section className="section">
+        <section className="section light-blue lighten-1 white-text">
             <Heading heading="Social Initiative"></Heading>
             <TextBlock text="We in a bid to serve the economy and do our service towards nation are inviting organisations to post their projects on our platform which will be consulted through professionals who are in sync with our initiative. No charge will be incurred to the organisations in the process till the covid outbreak lasts."></TextBlock>
         </section>

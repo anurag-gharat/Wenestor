@@ -1,7 +1,6 @@
 :root{
   --primary-color:#42a5f5 ;
 }
-
 body{
   margin: 0px !important;
   padding: 0px !important;
@@ -67,9 +66,8 @@ h1{
 }
 .button-primary{
   font-size: 20px;
-  padding: 15px 40px !important;
-  border: 0px;
-  border-radius: 25px;
+  padding: 10px 40px !important;
   color: white;
-  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  background-image: linear-gradient(to right, #42a5f5  0%, #29b6f6  100%);
+  border: 0px;
 }

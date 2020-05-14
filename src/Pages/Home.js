@@ -16,10 +16,9 @@ export default function Home() {
         <div class="App">
             <Main />
             <Whyus />
-            <WorkOn />
-            <SocialService />
             <HowWeWork />
-            
+            <SocialService />
+            <WorkOn />            
         </div>
     )
 }

@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Heading from '../Components/Heading'
 import NoBorderCard from '../Components/NoBorderCard'
 import Profit from '../Images/profit.png'
-import Growth from '../Images/growth.png'
 import Capital from '../Images/capital.png'
 import Research from '../Images/research.png'
 import Sell from '../Images/sell.png'
@@ -10,10 +9,6 @@ import Strategy from '../Images/strategy.png'
 import Data from '../Images/data.png'
 import Start from '../Images/start.png'
 import Transform from '../Images/transform.png'
-
-
-
-
 
 
 

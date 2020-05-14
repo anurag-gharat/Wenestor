@@ -20,7 +20,7 @@ export default function Navbar() {
             <nav className="nav-extended light-blue lighten-1 white-text">
             <div className="nav-wrapper">
             <a href="/" className="brand-logo white-text logo" style={{marginLeft:10}}>WENESTER</a>
-            <a href="#" data-target="mobile-demo" className="sidenav-trigger right"><i className="material-icons green-text darken-4">menu</i></a>
+            <a href="#" data-target="mobile-demo" className="sidenav-trigger right"><i className="material-icons white-text ">menu</i></a>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
                 <li><Link to="/" className="white-text" href="#about">Home</Link></li>
                 <li><Link to="/login" className="white-text" href="#whyus">Login</Link></li>
